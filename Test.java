@@ -1,20 +1,26 @@
 public class Test{
-	
 	public static void main(String[] args) {
-		int A = 10;
-		int B = 10;
-		int C = 20;
-		int D = 5;
+		int A;
+		A = 1;
+		int B = 2;
+		System.out.println(B);
+		B = 3;
+		System.out.println(A);
+		System.out.println(B);
 		
-		System.out.println("A - B = " + (A - B));
-		System.out.println("A + B = " + (A + B));
-		System.out.println("A * B - C = " + (A * B - C));
-		System.out.println("(A + B) / C = " + ((A + B) / C));
-		System.out.println("A --  = " + (A-- ));
-		System.out.println("A ++  = " + (A++ ));
-		System.out.println("(C + D) % B = " + ((C + D) % B  ));
-		System.out.println("++A  = " + (++A ));
-		System.out.println("--A  = " + (--A ));
+		byte age = 20;
+		double score = 99.99;
+		char gender = '男';
+		String name = "Gali";
+		System.out.println("信息如下\nname:" + name );
+		System.out.println("score:" + score);
+		System.out.println("gender:" + gender);
+		System.out.println("age:" + age);
+		
+		System.out.println(100 + 98);
+		System.out.println("100" + 98);
+		System.out.println(100 + 98 + "hello");
+		System.out.println("hello" + 100 + 98);
+		System.out.println('a' + 1);
 	}
-	
 }

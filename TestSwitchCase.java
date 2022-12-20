@@ -13,7 +13,7 @@ public class TestSwitchCase{
 			System.out.println("B+");
 			break;
 		case 'D':
-			break;
+//			break;
 		default:
 			System.out.println("位置等级");
 		}
